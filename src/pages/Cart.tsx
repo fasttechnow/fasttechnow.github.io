@@ -15,10 +15,19 @@ const Cart = () => {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
 
   useEffect(() => {
-    const savedCart = localStorage.getItem("cart");
-    if (savedCart) {
-      setCartItems(JSON.parse(savedCart));
-    }
+    const loadCart = () => {
+      const savedCart = localStorage.getItem("cart");
+      if (savedCart) {
+        setCartItems(JSON.parse(savedCart));
+      }
+    };
+
+    loadCart();
+    
+    // Listen for cart updates
+    window.addEventListener("cartUpdated", loadCart);
+    
+    return () => window.removeEventListener("cartUpdated", loadCart);
   }, []);
 
   const updateQuantity = (id: string, delta: number) => {

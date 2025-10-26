@@ -29,8 +29,8 @@ const Category = () => {
       color: "text-warning"
     },
     accessories: {
-      title: "Accessories & Add-ons",
-      description: "Essential accessories and add-ons to enhance your electronics experience",
+      title: "Accessories",
+      description: "Essential accessories including cables, hubs, chargers, and more to enhance your electronics",
       icon: Package,
       color: "text-blue-500"
     },
