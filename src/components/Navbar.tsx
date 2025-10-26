@@ -1,11 +1,25 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ShoppingCart, Search, Menu, X, Power } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [cartCount, setCartCount] = useState(0);
+
+  useEffect(() => {
+    const updateCartCount = () => {
+      const cart = JSON.parse(localStorage.getItem("cart") || "[]");
+      const totalItems = cart.reduce((sum: number, item: any) => sum + item.quantity, 0);
+      setCartCount(totalItems);
+    };
+
+    updateCartCount();
+    window.addEventListener("cartUpdated", updateCartCount);
+    
+    return () => window.removeEventListener("cartUpdated", updateCartCount);
+  }, []);
 
   const navLinks = [
     { name: "HOME", path: "/" },
@@ -65,9 +79,11 @@ const Navbar = () => {
               <Link to="/cart">
                 <Button variant="ghost" size="icon" className="relative">
                   <ShoppingCart className="w-5 h-5" />
-                  <span className="absolute -top-1 -right-1 bg-primary text-primary-foreground rounded-full w-5 h-5 text-xs flex items-center justify-center">
-                    0
-                  </span>
+                  {cartCount > 0 && (
+                    <span className="absolute -top-1 -right-1 bg-primary text-primary-foreground rounded-full w-5 h-5 text-xs flex items-center justify-center">
+                      {cartCount}
+                    </span>
+                  )}
                 </Button>
               </Link>
               <Button className="hidden sm:flex bg-primary hover:bg-primary-hover">

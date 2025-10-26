@@ -557,6 +557,128 @@ export const products: Product[] = [
     }
   },
   {
+    id: "acc-006",
+    name: "Webcam 4K Pro Streaming",
+    category: "accessories",
+    price: 119.99,
+    image: "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?w=800&h=600&fit=crop",
+    rating: 4.8,
+    reviews: 456,
+    inStock: true,
+    badge: "POPULAR",
+    description: "Professional 4K webcam with auto-focus and dual microphones for streaming and video calls.",
+    features: [
+      "4K resolution",
+      "Auto-focus technology",
+      "Dual built-in microphones",
+      "Wide-angle lens",
+      "USB plug-and-play"
+    ],
+    specifications: {
+      "Resolution": "4K 30fps",
+      "Field of View": "90 degrees",
+      "Connection": "USB 3.0",
+      "Compatibility": "Windows/Mac/Linux"
+    }
+  },
+  {
+    id: "acc-007",
+    name: "Cable Management Kit Pro",
+    category: "accessories",
+    price: 19.99,
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+    rating: 4.5,
+    reviews: 678,
+    inStock: true,
+    description: "Complete cable management solution with clips, sleeves, and organizers.",
+    features: [
+      "Cable clips included",
+      "Cable sleeves",
+      "Velcro straps",
+      "Adhesive cable holders",
+      "Desk organizer tray"
+    ],
+    specifications: {
+      "Package": "50+ pieces",
+      "Material": "Silicone & ABS",
+      "Color": "Black",
+      "Compatibility": "Universal"
+    }
+  },
+  {
+    id: "acc-008",
+    name: "Dual Monitor Arm Mount",
+    category: "accessories",
+    price: 89.99,
+    image: "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=800&h=600&fit=crop",
+    rating: 4.9,
+    reviews: 234,
+    inStock: true,
+    description: "Heavy-duty dual monitor arm with full motion adjustment and cable management.",
+    features: [
+      "Dual monitor support",
+      "Full motion adjustment",
+      "Cable management system",
+      "VESA compatible",
+      "Supports up to 32 inch monitors"
+    ],
+    specifications: {
+      "Max Weight": "10kg per arm",
+      "VESA": "75x75, 100x100",
+      "Adjustment": "360° rotation",
+      "Clamp Type": "C-clamp & Grommet"
+    }
+  },
+  {
+    id: "acc-009",
+    name: "RGB LED Strip Lights 5M",
+    category: "accessories",
+    price: 24.99,
+    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=600&fit=crop",
+    rating: 4.6,
+    reviews: 1234,
+    inStock: true,
+    badge: "BESTSELLER",
+    description: "Smart RGB LED strip lights with app control and music sync for ambient lighting.",
+    features: [
+      "5 meter length",
+      "RGB color changing",
+      "App & remote control",
+      "Music sync mode",
+      "Adhesive backing"
+    ],
+    specifications: {
+      "Length": "5 meters",
+      "LEDs": "150 LED beads",
+      "Control": "WiFi/Bluetooth",
+      "Power": "12V adapter included"
+    }
+  },
+  {
+    id: "acc-010",
+    name: "Ergonomic Mouse Pad XXL",
+    category: "accessories",
+    price: 29.99,
+    image: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&h=600&fit=crop",
+    rating: 4.7,
+    reviews: 567,
+    inStock: true,
+    description: "Extra large gaming mouse pad with wrist rest and anti-slip rubber base.",
+    features: [
+      "XXL size (900x400mm)",
+      "Memory foam wrist rest",
+      "Anti-slip rubber base",
+      "Water-resistant surface",
+      "Stitched edges"
+    ],
+    specifications: {
+      "Size": "900 x 400 x 4mm",
+      "Material": "Fabric + Rubber",
+      "Surface": "Micro-textured",
+      "Color": "Black"
+    }
+  },
+  {
     id: "acc-002",
     name: "Wireless Charging Pad 15W",
     category: "accessories",
@@ -680,6 +802,130 @@ export const products: Product[] = [
       "GPU": "NVIDIA RTX 4060 Ti 8GB",
       "RAM": "16GB DDR5",
       "Storage": "1TB NVMe SSD"
+    }
+  },
+  {
+    id: "comp-006",
+    name: "RAM Kit DDR5 32GB (2x16GB)",
+    category: "computers",
+    price: 139.99,
+    image: "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=800&h=600&fit=crop",
+    rating: 4.8,
+    reviews: 445,
+    inStock: true,
+    badge: "POPULAR",
+    description: "High-performance DDR5 RAM kit with RGB lighting and XMP 3.0 support.",
+    features: [
+      "32GB total capacity",
+      "6000MHz speed",
+      "RGB lighting",
+      "XMP 3.0 support",
+      "Low latency CL30"
+    ],
+    specifications: {
+      "Capacity": "32GB (2x16GB)",
+      "Speed": "6000MHz",
+      "Type": "DDR5",
+      "Latency": "CL30"
+    }
+  },
+  {
+    id: "comp-007",
+    name: "Graphics Card RTX 4070 Ti",
+    category: "computers",
+    price: 799.99,
+    originalPrice: 899.99,
+    image: "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=800&h=600&fit=crop",
+    rating: 4.9,
+    reviews: 312,
+    inStock: true,
+    badge: "SALE",
+    description: "NVIDIA RTX 4070 Ti graphics card with ray tracing and DLSS 3.0.",
+    features: [
+      "12GB GDDR6X memory",
+      "Ray tracing support",
+      "DLSS 3.0",
+      "Triple fan cooling",
+      "RGB lighting"
+    ],
+    specifications: {
+      "Memory": "12GB GDDR6X",
+      "Core Clock": "2610MHz boost",
+      "Interface": "PCIe 4.0",
+      "Power": "285W TDP"
+    }
+  },
+  {
+    id: "comp-008",
+    name: "NVMe SSD 1TB Gen4",
+    category: "computers",
+    price: 99.99,
+    image: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=800&h=600&fit=crop",
+    rating: 4.7,
+    reviews: 789,
+    inStock: true,
+    description: "Ultra-fast PCIe Gen4 NVMe SSD with heatsink for optimal performance.",
+    features: [
+      "1TB capacity",
+      "PCIe Gen4 x4",
+      "Up to 7000MB/s read",
+      "Aluminum heatsink",
+      "5-year warranty"
+    ],
+    specifications: {
+      "Capacity": "1TB",
+      "Interface": "PCIe 4.0 x4",
+      "Read Speed": "7000 MB/s",
+      "Write Speed": "5000 MB/s"
+    }
+  },
+  {
+    id: "comp-009",
+    name: "CPU Cooler AIO 240mm RGB",
+    category: "computers",
+    price: 129.99,
+    image: "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=800&h=600&fit=crop",
+    rating: 4.8,
+    reviews: 523,
+    inStock: true,
+    badge: "POPULAR",
+    description: "All-in-one liquid CPU cooler with 240mm radiator and RGB fans.",
+    features: [
+      "240mm radiator",
+      "RGB lighting",
+      "Quiet operation",
+      "Universal socket support",
+      "Easy installation"
+    ],
+    specifications: {
+      "Radiator": "240mm",
+      "Fan Speed": "2000 RPM max",
+      "Noise Level": "25 dBA",
+      "Compatibility": "Intel/AMD"
+    }
+  },
+  {
+    id: "comp-010",
+    name: "PC Case Mid Tower RGB",
+    category: "computers",
+    price: 89.99,
+    image: "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=800&h=600&fit=crop",
+    rating: 4.6,
+    reviews: 356,
+    inStock: true,
+    description: "Mid-tower gaming case with tempered glass panel and RGB fans.",
+    features: [
+      "Tempered glass side panel",
+      "3x RGB fans included",
+      "Cable management system",
+      "ATX support",
+      "USB-C front panel"
+    ],
+    specifications: {
+      "Form Factor": "Mid Tower ATX",
+      "Material": "Steel + Glass",
+      "Max GPU Length": "380mm",
+      "Max CPU Cooler": "165mm"
     }
   },
   {
@@ -808,6 +1054,130 @@ export const products: Product[] = [
       "Bluetooth": "5.3",
       "Driver": "10mm dynamic",
       "Water Resistance": "IPX4"
+    }
+  },
+  {
+    id: "audio-006",
+    name: "Soundbar 5.1 Surround System",
+    category: "audio",
+    price: 299.99,
+    originalPrice: 399.99,
+    image: "https://images.unsplash.com/photo-1545127398-14699f92334b?w=800&h=600&fit=crop",
+    rating: 4.9,
+    reviews: 567,
+    inStock: true,
+    badge: "SALE",
+    description: "Premium 5.1 channel soundbar with wireless subwoofer and Dolby Atmos.",
+    features: [
+      "5.1 channel audio",
+      "Dolby Atmos support",
+      "Wireless subwoofer",
+      "HDMI ARC/eARC",
+      "Bluetooth connectivity"
+    ],
+    specifications: {
+      "Channels": "5.1",
+      "Power": "500W total",
+      "Connectivity": "HDMI/Optical/Bluetooth",
+      "Subwoofer": "Wireless 8 inch"
+    }
+  },
+  {
+    id: "audio-007",
+    name: "DJ Headphones Professional",
+    category: "audio",
+    price: 179.99,
+    image: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&h=600&fit=crop",
+    rating: 4.8,
+    reviews: 445,
+    inStock: true,
+    badge: "POPULAR",
+    description: "Professional DJ headphones with swivel design and powerful bass response.",
+    features: [
+      "Swivel ear cups",
+      "50mm drivers",
+      "Detachable cable",
+      "Gold-plated connectors",
+      "Carrying case included"
+    ],
+    specifications: {
+      "Driver": "50mm",
+      "Frequency": "5Hz-30kHz",
+      "Impedance": "32 Ohm",
+      "Cable": "3m coiled"
+    }
+  },
+  {
+    id: "audio-008",
+    name: "Audio Interface USB-C 2x2",
+    category: "audio",
+    price: 149.99,
+    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&h=600&fit=crop",
+    rating: 4.7,
+    reviews: 312,
+    inStock: true,
+    description: "Professional USB-C audio interface with phantom power and direct monitoring.",
+    features: [
+      "2 XLR/TRS inputs",
+      "48V phantom power",
+      "Direct monitoring",
+      "USB-C connectivity",
+      "Studio-quality preamps"
+    ],
+    specifications: {
+      "Inputs": "2x combo XLR/TRS",
+      "Outputs": "2x TRS",
+      "Sample Rate": "192kHz/24bit",
+      "Connection": "USB-C"
+    }
+  },
+  {
+    id: "audio-009",
+    name: "Smart Speaker with Alexa",
+    category: "audio",
+    price: 79.99,
+    image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&h=600&fit=crop",
+    rating: 4.6,
+    reviews: 1890,
+    inStock: true,
+    description: "Smart speaker with Alexa voice control and premium sound quality.",
+    features: [
+      "Alexa built-in",
+      "360° sound",
+      "Smart home control",
+      "Multi-room audio",
+      "AUX input"
+    ],
+    specifications: {
+      "Voice Assistant": "Alexa",
+      "Connectivity": "WiFi/Bluetooth",
+      "Power": "30W",
+      "Compatibility": "iOS/Android"
+    }
+  },
+  {
+    id: "audio-010",
+    name: "Record Player Vintage Style",
+    category: "audio",
+    price: 199.99,
+    image: "https://images.unsplash.com/photo-1603048588665-791ca8ead6f1?w=800&h=600&fit=crop",
+    rating: 4.8,
+    reviews: 234,
+    inStock: true,
+    badge: "POPULAR",
+    description: "Vintage-style turntable with Bluetooth output and built-in speakers.",
+    features: [
+      "3-speed turntable",
+      "Bluetooth output",
+      "Built-in speakers",
+      "RCA outputs",
+      "Auto-stop function"
+    ],
+    specifications: {
+      "Speeds": "33/45/78 RPM",
+      "Drive": "Belt drive",
+      "Cartridge": "Ceramic",
+      "Output": "Bluetooth/RCA"
     }
   },
   {

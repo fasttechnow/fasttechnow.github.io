@@ -27,6 +27,24 @@ const Category = () => {
       description: "Gaming console parts, accessories, and peripherals for all major platforms",
       icon: Gamepad2,
       color: "text-warning"
+    },
+    accessories: {
+      title: "Accessories & Add-ons",
+      description: "Essential accessories and add-ons to enhance your electronics experience",
+      icon: Package,
+      color: "text-blue-500"
+    },
+    computers: {
+      title: "Computers & Components",
+      description: "High-performance computer components and peripherals for gaming and productivity",
+      icon: Package,
+      color: "text-purple-500"
+    },
+    audio: {
+      title: "Audio Equipment",
+      description: "Professional audio gear including headphones, speakers, and recording equipment",
+      icon: Package,
+      color: "text-indigo-500"
     }
   };
 
