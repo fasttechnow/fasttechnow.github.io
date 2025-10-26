@@ -775,6 +775,249 @@ export const products: Product[] = [
       "Package": "2 pack"
     }
   },
+  {
+    id: "acc-011",
+    name: "Fast Charging Cable 3-Pack USB-C",
+    category: "accessories",
+    price: 19.99,
+    image: "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&h=600&fit=crop",
+    rating: 4.7,
+    reviews: 1456,
+    inStock: true,
+    badge: "BESTSELLER",
+    description: "Durable braided USB-C charging cables with fast charging support.",
+    features: [
+      "3 pack (3ft, 6ft, 10ft)",
+      "Braided nylon cable",
+      "100W power delivery",
+      "Data transfer 480Mbps",
+      "Universal compatibility"
+    ],
+    specifications: {
+      "Lengths": "0.9m, 1.8m, 3m",
+      "Power": "100W PD",
+      "Material": "Braided nylon",
+      "Connector": "USB-C to USB-C"
+    }
+  },
+  {
+    id: "acc-012",
+    name: "Multi-Device Charging Station",
+    category: "accessories",
+    price: 49.99,
+    image: "https://images.unsplash.com/photo-1591290619762-9f2a877c94e1?w=800&h=600&fit=crop",
+    rating: 4.8,
+    reviews: 678,
+    inStock: true,
+    badge: "POPULAR",
+    description: "6-port USB charging station with smart IC technology for multiple devices.",
+    features: [
+      "6 USB ports",
+      "60W total output",
+      "Smart IC technology",
+      "Surge protection",
+      "LED indicators"
+    ],
+    specifications: {
+      "Ports": "6x USB-A",
+      "Total Output": "60W",
+      "Input": "100-240V",
+      "Protection": "Over-current, Over-voltage"
+    }
+  },
+  {
+    id: "acc-013",
+    name: "Portable Power Bank 20000mAh",
+    category: "accessories",
+    price: 34.99,
+    image: "https://images.unsplash.com/photo-1609592806630-b8d5ec41c16a?w=800&h=600&fit=crop",
+    rating: 4.6,
+    reviews: 2134,
+    inStock: true,
+    description: "High-capacity portable charger with dual USB outputs and LED display.",
+    features: [
+      "20000mAh capacity",
+      "Dual USB outputs",
+      "LED digital display",
+      "Fast charging support",
+      "Compact design"
+    ],
+    specifications: {
+      "Capacity": "20000mAh",
+      "Input": "USB-C 18W",
+      "Output": "2x USB-A 18W",
+      "Battery Type": "Li-Polymer"
+    }
+  },
+  {
+    id: "acc-014",
+    name: "Bluetooth Keyboard & Mouse Combo",
+    category: "accessories",
+    price: 44.99,
+    image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&h=600&fit=crop",
+    rating: 4.7,
+    reviews: 892,
+    inStock: true,
+    description: "Wireless keyboard and mouse combo with silent keys and ergonomic design.",
+    features: [
+      "Bluetooth 5.0",
+      "Silent keys",
+      "Ergonomic design",
+      "Rechargeable batteries",
+      "Multi-device pairing"
+    ],
+    specifications: {
+      "Connectivity": "Bluetooth 5.0",
+      "Battery Life": "3 months",
+      "Range": "10 meters",
+      "Compatibility": "Windows/Mac/iOS/Android"
+    }
+  },
+  {
+    id: "acc-015",
+    name: "HDMI Cable 4K 6ft Braided",
+    category: "accessories",
+    price: 14.99,
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+    rating: 4.8,
+    reviews: 1234,
+    inStock: true,
+    description: "Premium braided HDMI cable supporting 4K@60Hz with HDR.",
+    features: [
+      "4K@60Hz support",
+      "HDR compatible",
+      "Braided cable",
+      "Gold-plated connectors",
+      "24K gold-plated"
+    ],
+    specifications: {
+      "Resolution": "4K@60Hz",
+      "Length": "6 feet (1.8m)",
+      "Version": "HDMI 2.0",
+      "HDR": "Yes"
+    }
+  },
+  {
+    id: "acc-016",
+    name: "USB Flash Drive 128GB 3-Pack",
+    category: "accessories",
+    price: 29.99,
+    image: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=800&h=600&fit=crop",
+    rating: 4.5,
+    reviews: 567,
+    inStock: true,
+    description: "High-speed USB 3.0 flash drives with 128GB capacity each.",
+    features: [
+      "128GB per drive",
+      "USB 3.0 speed",
+      "Capless design",
+      "LED indicator",
+      "Metal housing"
+    ],
+    specifications: {
+      "Capacity": "128GB each",
+      "Interface": "USB 3.0",
+      "Read Speed": "100MB/s",
+      "Package": "3 pack"
+    }
+  },
+  {
+    id: "acc-017",
+    name: "Desk Organizer with Wireless Charger",
+    category: "accessories",
+    price: 39.99,
+    image: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&h=600&fit=crop",
+    rating: 4.6,
+    reviews: 445,
+    inStock: true,
+    description: "Multi-functional desk organizer with built-in wireless charging pad.",
+    features: [
+      "10W wireless charging",
+      "Multiple compartments",
+      "Phone stand",
+      "Cable management",
+      "Premium PU leather"
+    ],
+    specifications: {
+      "Charging": "10W Qi wireless",
+      "Material": "PU Leather",
+      "Dimensions": "25cm x 15cm x 10cm",
+      "Color": "Black"
+    }
+  },
+  {
+    id: "acc-018",
+    name: "Tablet Stand Adjustable Aluminum",
+    category: "accessories",
+    price: 24.99,
+    image: "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800&h=600&fit=crop",
+    rating: 4.7,
+    reviews: 678,
+    inStock: true,
+    description: "Universal tablet stand with adjustable angles for all tablet sizes.",
+    features: [
+      "Universal compatibility",
+      "Multi-angle adjustment",
+      "Aluminum construction",
+      "Non-slip base",
+      "Portable design"
+    ],
+    specifications: {
+      "Material": "Aluminum alloy",
+      "Compatibility": "4-13 inch tablets",
+      "Angles": "Fully adjustable",
+      "Weight": "250g"
+    }
+  },
+  {
+    id: "acc-019",
+    name: "Blue Light Blocking Glasses",
+    category: "accessories",
+    price: 19.99,
+    image: "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=800&h=600&fit=crop",
+    rating: 4.5,
+    reviews: 1567,
+    inStock: true,
+    description: "Computer glasses with blue light blocking lenses to reduce eye strain.",
+    features: [
+      "Blue light blocking",
+      "UV protection",
+      "Anti-glare coating",
+      "Lightweight frame",
+      "Carrying case included"
+    ],
+    specifications: {
+      "Frame Material": "TR90",
+      "Lens Type": "Blue light blocking",
+      "UV Protection": "100%",
+      "Style": "Unisex"
+    }
+  },
+  {
+    id: "acc-020",
+    name: "Microfiber Cleaning Cloths 10-Pack",
+    category: "accessories",
+    price: 9.99,
+    image: "https://images.unsplash.com/photo-1616348436168-de43ad0db179?w=800&h=600&fit=crop",
+    rating: 4.8,
+    reviews: 2345,
+    inStock: true,
+    badge: "BESTSELLER",
+    description: "Premium microfiber cloths for cleaning screens, lenses, and electronics.",
+    features: [
+      "10 pack",
+      "Lint-free",
+      "Scratch-resistant",
+      "Washable & reusable",
+      "Multiple colors"
+    ],
+    specifications: {
+      "Size": "6 x 6 inches",
+      "Material": "Microfiber",
+      "Package": "10 cloths",
+      "Machine Washable": "Yes"
+    }
+  },
 
   // Computers Category
   {
